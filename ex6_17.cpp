@@ -20,7 +20,7 @@ string changeToLower(string &s) {
 int main() 
 {
     string str("Hello World");
-    string ss = chantToLower(str);
+    string ss = changeToLower(str);
     
     cout  << ss << endl;
     
