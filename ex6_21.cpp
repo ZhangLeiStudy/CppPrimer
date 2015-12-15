@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int compare(int num, int *ptr)
+int compare(const int num, const int *ptr)
 {
     return num >= *ptr ? num : *ptr;
 }
