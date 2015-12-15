@@ -3,7 +3,7 @@
 
 bool flag = false;
 
-string chantToLower(string &s) {
+string changeToLower(string &s) {
     string::size_type size = s.size();
     for(auto i = 0; i < size; ++i)
     {
